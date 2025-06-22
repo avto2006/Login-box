@@ -109,7 +109,7 @@ p2{
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 
  .login_box {
         margin: 50px 0 auto 0;
@@ -141,7 +141,8 @@ p2{
     height: 40px;
     border-radius: 10px;
     border: 1px #8AC0FF solid;
-    padding-left: 12px;
+    padding-left: 20px;
+    margin-left: 2px;
 }
 
 
