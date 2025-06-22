@@ -94,6 +94,8 @@ p2{
     cursor: pointer;
 }
 
+
+
 .login_button:hover {
     transform: scale(1.1);
     transition: transform 0.7s ease;
@@ -104,5 +106,72 @@ p2{
     text-align: center;
     margin-top: 20px;
     color: rgb(154, 22, 165);
+}
+
+
+@media (max-width: 500px){
+
+ .login_box {
+        margin: 50px 0 auto 0;
+}
+    
+ .rectangle{
+    width: 540px;
+    height: 600px;
+    border-radius: 4px;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+}
+
+
+
+
+.rectangle_h1 {
+    text-align: center;
+    padding-right: 65px;
+    padding-top: 0;
+}
+
+.rectangle_p1, .rectangle_p2 {
+    padding-left: 22px;
+}
+
+.rectangle_inp1, .rectangle_inp2 {
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px #8AC0FF solid;
+    padding-left: 12px;
+}
+
+
+.social_media {
+    padding-top: 5px;
+}
+
+
+.google_logo,.meta_logo,.apple_logo{
+    width: 100px;
+    height: 55px;
+}
+
+.login_button{
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
