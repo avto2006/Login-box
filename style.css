@@ -112,37 +112,50 @@ p2{
 @media (max-width: 600px){
 
  .login_box {
-        margin: 50px 0 auto 0;
+        margin: 30px 0;
+        padding: 0 10px;
 }
     
  .rectangle{
-    width: 540px;
-    height: 600px;
-    border-radius: 4px;
-    flex-wrap: nowrap;
+    width: 100%;
+    height:auto;
     border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 
 
 
 .rectangle_h1 {
+    font-size: 20px;
     text-align: center;
-    padding-right: 65px;
-    padding-top: 0;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .rectangle_p1, .rectangle_p2 {
-    padding-left: 22px;
+    text-align: center;
+    padding: 0;
+    font-size: 14px;
+}
+
+.rectangle_inputs {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .rectangle_inp1, .rectangle_inp2 {
-    width: 380px;
-    height: 40px;
+    width: 100%;
+    max-width: 340px;
+    height: 44px;
     border-radius: 10px;
     border: 1px #8AC0FF solid;
     padding-left: 20px;
     margin-left: 2px;
+    font-size: 14px;
 }
 
 
@@ -152,14 +165,17 @@ p2{
 
 
 .google_logo,.meta_logo,.apple_logo{
-    width: 100px;
-    height: 55px;
+    width: 90px;
+    height: 50px;
 }
 
 .login_button{
-    width: 200px;
-    height: 30px;
+    width: 100%;
+    max-width: 220px;
+    height: 40px;
     padding-top: 10px;
+    font-size: 16px;
+    margin: 30px auto 0;
 }
 
 .lgn_btn-conteiner {
@@ -167,17 +183,9 @@ p2{
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.rectangle_p3 {
+    font-size: 12px;
+    margin-top: 15px;
+}
 }
 
